@@ -1,0 +1,126 @@
+body
+{
+	background-image: url('bga.png');
+	no-repeat center center fixed;
+	background-size: cover;
+	font-family: sans-serif;
+}
+
+header
+{
+	width:80%;
+	margin:auto;
+	overflow: hidden;
+}
+.head
+{
+	float:left;
+	color: #ff0000;
+	font-size: 30px;
+	font-family: cursive;
+	text-shadow: 2px 2px #A9A9A9;
+}
+nav
+{
+	float: right;
+}
+ul
+{
+  border: 10px solid #000000;
+  background-color: #000000;
+}
+
+li
+{
+	display: inline;
+	padding: 1rem;
+}
+li a 
+{
+	color: #fff;
+	text-decoration; none;
+	font-weight: bold;
+}
+
+.active
+{
+	color:gold;
+}
+.container
+{
+	width:70%;
+	margin: auto;
+	overflow: hidden;
+	margin-top:1%;
+}
+
+showcase h1
+{
+	color: #fff;
+	font-family: cursive;
+	text-align: center;
+    text-shadow: 2px 2px #fff;
+}
+showcase h2
+{
+	color:#fff;
+	text-align: center;
+	letter-spacing: 2px;
+	text-shadow: 2px 2px #fff;
+	
+
+}
+
+showcase h3
+{
+	color: #fff;
+	text-align: center;
+	letter-spacing: 2px;
+	text-shadow: 2px 2px #006400;
+	text-decoration: overline;
+}
+
+.category
+{
+	color: #fff;
+	margin-top: 5%;
+	display: flex;
+	text-align: center;
+	font-family: sans-serif;
+}
+
+img
+{
+	width: 70%;
+	border-radius: 60%; 
+}
+
+.nonveg, .seafood, 
+{
+	padding-Up:1rem;
+}
+
+h4
+{
+	text-shadow: 2px 2px #fff;
+	font-size: 1.5rem; /*1rem=16px */
+	margin: 3%;
+
+}
+.btn
+{
+	background-color: gold;
+	padding: 1rem;
+	border: none;
+	border-radius: 7px;
+	margin-left; 45%;
+}
+.feedback
+{
+	background-color: gold;
+	padding: 1rem;
+	border: none;
+	border-radius: 7px;
+	margin-left; 45%;
+	float: right;
+}
